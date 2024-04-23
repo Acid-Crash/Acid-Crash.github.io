@@ -5,8 +5,8 @@
       version: '1.0',
       description: 'Remove items from Settings'
     };
-		Lampa.Listener.follow('app',(e)=>{
-        if(e.type == 'ready'){
+    Lampa.Listener.follow('full', function (e) {
+        if (e.type == 'complite') {
 			setTimeout(function(){
 				$("[data-component=parser]").eq(0).remove();
 				$("[data-component=server]").eq(0).remove();
