@@ -12,6 +12,8 @@
 				$("[data-action=anime]").eq(0).remove();
 				$("[data-action=mytorrents]").eq(0).remove();
 				$("[data-action=feed]").eq(0).remove();
+				$("[data-action=about]").eq(0).remove();
+				$("[data-action=console]").eq(0).remove();
 			},10); 
         }
     });
