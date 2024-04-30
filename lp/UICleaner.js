@@ -19,6 +19,7 @@
 				$(".open--feed").remove();
 			        $(".open--premium").remove();
 			        $(".open--notice").remove();
+				$(".open--broadcast").remove();
 			},10); 
         }
     });
