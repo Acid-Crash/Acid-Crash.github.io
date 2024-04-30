@@ -16,6 +16,9 @@
 				$("[data-action=console]").eq(0).remove();
 				$("[data-action=myperson]").eq(0).remove();
 				$("[data-action=subscribes]").eq(0).remove();
+				$(".open--feed").remove();
+			        $(".open--premium").remove();
+			        $(".open--notice").remove();
 			},10); 
         }
     });
