@@ -20,7 +20,7 @@
 			        $(".open--premium").remove();
 			        $(".open--notice").remove();
 				$(".open--broadcast").remove();
-				$("[data-action=server]").remove();
+				$("[data-component=server]").remove();
 			},10); 
         }
     });
