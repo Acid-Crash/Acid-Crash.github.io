@@ -20,7 +20,6 @@
 			        $(".open--premium").remove();
 			        $(".open--notice").remove();
 				$(".open--broadcast").remove();
-				$("[data-component=server]").remove();
 			},10); 
         }
     });
