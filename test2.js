@@ -1,8 +1,5 @@
 (function () {
-    'use strict'; 
-   var garbage_collector = {
-      name: 'Clean Sidebar2',
-    };
+
       Lampa.Settings.listener.follow('open',(e)=>{
         if(e.type == 'main'){
          setTimeout(function(){
