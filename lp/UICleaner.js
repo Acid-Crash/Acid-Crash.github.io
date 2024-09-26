@@ -3,7 +3,7 @@
    var garbage_collector = {
       name: 'Clean Sidebar',
       version: '1.0',
-      description: 'Remove items from Sidebar'
+      description: 'Remove items from Sidebar and Header'
     };
 		Lampa.Listener.follow('app',(e)=>{
         if(e.type == 'ready'){
@@ -20,6 +20,7 @@
 			        $(".open--premium").remove();
 			        $(".open--notice").remove();
 				$(".open--broadcast").remove();
+				$(".open--profile").remove();
 			},10); 
         }
     });
