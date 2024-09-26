@@ -16,11 +16,7 @@
 				$("[data-action=console]").eq(0).remove();
 				$("[data-action=myperson]").eq(0).remove();
 				$("[data-action=subscribes]").eq(0).remove();
-				$(".open--feed").remove();
-			        $(".open--premium").remove();
-			        $(".open--notice").remove();
-				$(".open--broadcast").remove();
-				$(".open--profile").remove();
+				$('.head__actions > .head__action:not(.open--search):not(.open--settings)').remove();
 			},10); 
         }
     });
